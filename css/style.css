@@ -847,3 +847,7 @@ img {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.modal-form-checkbox:focus + .modal-form-checkbox-label::before {
+  outline: 2px solid var(--accent-color);
+}
